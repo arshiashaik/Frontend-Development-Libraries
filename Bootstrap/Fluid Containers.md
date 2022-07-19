@@ -9,6 +9,8 @@ You can add Bootstrap to any app by adding the following code to the top of your
 
 
 '''
+<html>
+ <head>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -35,6 +37,8 @@ You can add Bootstrap to any app by adding the following code to the top of your
     width: 100px;
   }
 </style>
+  </head>
+  <body>
 <div class="container-fluid">
 
 <h2 class="red-text">CatPhotoApp</h2>
@@ -65,5 +69,7 @@ You can add Bootstrap to any app by adding the following code to the top of your
   <button type="submit">Submit</button>
 </form>
 </div>
+</body>
+</html>
 
 '''
